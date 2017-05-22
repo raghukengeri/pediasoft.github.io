@@ -1,0 +1,181 @@
+﻿* {margin: auto;padding: 0;}
+
+body {background:#02507d; font-family:arial; font-size:12px; color:#ffffff;text-align:center;}
+  
+p {margin-top:0px;padding-top:0px;margin-bottom:0px;padding-bottom:0px;}
+ 
+a img{border: 0px;}
+
+.left{float:left;}
+
+.clear{clear:both;}
+
+.right{float:right;}
+
+:focus{outline:none;}
+ 
+a {text-decoration:none;cursor:pointer;}
+ 
+#main_body {width:942px;margin-top:20px;text-align:left;padding-bottom:15px;}
+ 
+/* Header Style Starts Here */
+#header_top{width:942px;height:18px;background:url(../images/header-top_bg.png) no-repeat;}
+#header_bottom{width:942px;height:19px;background:url(../images/header-bottom_bg.png) no-repeat;}
+#header_body{height:265px;background:url(../images/header_bg.png) repeat-x;padding-left:20px;padding-right:20px;}
+#header{height:301px;text-transform:uppercase;color:#4390c3;}
+
+#header_left{width:320px;padding-left:5px;float:left;text-align:left;}
+#header_right{float:right;}
+
+/* Logo */
+#logo{width:227px;height:61px;margin-left:0px;}
+#logo_divider{margin-top:5px;height:6px;margin-left:0px;}
+
+#content_slider{outline:0;width:575px;position:relative;}
+
+/* Menu Links */
+/*#menu{list-style-type:none; font-size:18px; font-weight:bold; color:#4390c2; width:130px; padding-top:35px;position:relative; float:left;}
+#menu li{list-style-type:none; padding-top:5px; border-radius:5px;}
+#menu a{color:#4390c2;}
+#menu a:hover{color:#053d5e;}
+
+li#menu_active a{color:#053d5e;}*/
+
+
+#menu{list-style-type:none; font-size:15px; font-weight:bold; color:#4390c2; padding-top:35px; position:relative; float:left; }
+
+#menu li
+{
+	/*background-image:url(../images/1_1.png);
+	list-style:none;
+	border:1px solid #fffffff;
+	cursor:pointer;
+	float:download_bro_btn{margin-top};
+	padding-top:5px;	
+	text-align:left;
+	width:130px;*/
+	
+	list-style:none;
+	text-decoration : none;
+	outline : none;
+	border : 10px;
+	cursor : pointer;
+	color : #000;
+	margin-bottom:4px;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 15px 10px 15px;
+	font-size:15px;
+	line-height:10px;
+	display: block;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+	/*background-color:#333;
+    -webkit-border-bottom-right-radius:25px;
+    -webkit-border-bottom-left-radius:25px;
+    -moz-border-radius-bottomright:25px;
+    -moz-border-radius-bottomleft:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+	
+	background-image: linear-gradient(right, #111 11%, #333 56%);
+    background-image: -o-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
+    background-image: gradient(right, #111 11%, #333 56%);*/
+	
+	
+	background:#336699;
+	box-shadow:5px 5px 5px #AAAAAA;
+	
+	/*box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.3), 
+             0px 10px 15px 0px rgba(0, 0, 0, 0.6);*/
+			 
+	
+	/*background:none;*/
+}
+
+#menu a{color:white;}
+#menu li:hover{background:#6699FF; color:#053d5e;}
+
+li#menu_active a{color:#053d5e;}
+li#menu_active {background-color:#6699FF}
+
+/* Header Style Ends Here */
+
+#content_body{background:url(../images/content_bg.png) no-repeat;text-align:left;padding:30px 20px 0px 20px;margin-left:0px;}
+.headings{font-size:16px;color:#ffffff;padding-bottom:4px;border-bottom:1px solid #053d5e;margin-bottom:12px;font-weight:bold;}
+
+/* Left Content  */
+#left_content{float:left;width:572px;font-size:13px;}
+#left_content li{list-style-image:url(../images/li_arrow.png);padding-bottom:5px;}
+
+/* Right Content */
+#right_content{float:right;width:298px;color:#ffffff;font-size:13px;text-align:left;}
+#testimonial{background:url(../images/testimonial_bg.png) no-repeat;width:300px;height:154px;padding:10px;}
+#testimonial p{color:#777777;font-style:italic;width:280px;margin-left:0px;margin-top:7px;line-height:20px;}
+#testimonial_author {color:#003770;font-weight:bold;width:250px;margin-top:12px;text-align:right;font-style:italic;}
+.text_style1{font-size:13px;color:#00baff;}
+.text_style2{font-size:14px;color:#00baff;font-weight:bold;padding-bottom:5px;}
+#follow_us{margin-top:-3px;}
+#follow_us img{margin-right:12px;}
+
+/* More Links */
+.more_links{list-style-type:none;font-size:13px;color:#ffffff; list-style-position:inside;}
+.more_links li{list-style-type:none;font-size:13px;color:#ffffff;list-style-image:url(../images/li_arrow.png);padding-bottom:7px;}
+.more_links a{font-size:13px;color:#ffffff;}
+.more_links a:hover{font-size:13px;color:#ffffff;text-decoration:underline;}
+
+
+/* Download Brochure Button Starts */
+#download_bro_btn{margin-top:35px;width:298px;height:50px;}
+
+/* Clients */
+.clients_logo{width:150px;height:100px;padding:1px;float:left;margin-right:50px;margin-bottom:30px;}
+.clients_logo_r{width:150px;height:100px;padding:1px;float:left;margin-right:0px;margin-bottom:30px;}
+.clients_logo img{width:150px;height:100px;border:1px solid #126090;padding:1px;}
+.clients_logo img:hover{width:150px;height:100px;border:1px solid #ffffff;padding:1px;}
+.clients_logo_r img{width:150px;height:100px;border:1px solid #126090;padding:1px;}
+.clients_logo_r img:hover{width:150px;height:100px;border:1px solid #ffffff;padding:1px;}
+.clients{font-size:13px;color:#fefefe;font-weight:bold;}
+.clients a{font-size:13px;color:#fefefe;font-weight:bold;}
+.clients a:hover{font-size:13px;color:#fefefe;text-decoration:underline;font-weight:bold;}
+
+/* Contact Form */
+.contact input[type="text"]{width:300px;border:1px solid #39454e;background:#e1e1e1;margin-top:2px;padding:3px;}
+.contact input[type="text"]:hover{width:300px;border:1px solid #39454e;background:#ffffff;margin-top:2px;padding:3px;}
+label.error {color: red; padding-left: 20px; }
+textarea{width:400px;height:100px;border:1px solid #39454e;background:#e1e1e1;margin-top:2px;}
+textarea:hover{width:400px;height:100px;border:1px solid #39454e;background:#ffffff;margin-top:2px;}
+ 
+/* Contact From */
+
+
+
+/* Footer Starts Here */
+#footer_top_bg{width:942px;height:37px;background:url(../images/footer_top_bg.png) no-repeat;}
+#footer_bottom_bg{width:942px;height:12px;background:url(../images/footer_bottom_bg.png) no-repeat;}
+
+#footer_content{padding:5px 20px 5px 20px;color:#9bc2e1;font-size:11px;background:#053d5e;width:900px;}
+#footer_content a{color:#9bc2e1;font-size:11px;text-decoration:none;}
+#footer_content a:hover{color:#ffffff;font-size:11px;text-decoration:none;}
+
+#footer_content span{color:#9bc2e1;font-size:11px;padding:0px 3px 0px 3px;}
+
+
+
+/* Footer Ends Here */
+
+#company_name a{font-family: Castellar; font-size:38px; font-weight: bold; padding-left:110px;}
+#company_name span{color:red; font-size:38px; font-weight:bold;}
+#company_name_another a{font-family: Castellar; font-size:38px; font-size:25px; font-weight:bold; padding-left:115px}
+
+#company_logo a{width:100px; margin-left:125px; margin-top: }
+
+
+
+
+

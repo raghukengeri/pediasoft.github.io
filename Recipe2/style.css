@@ -1,0 +1,22 @@
+body{ font-family:"Trebuchet MS",verdana; }
+ul
+{
+	list-style-type:disc;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+li.menuHeader
+{
+	list-style-type:none;
+	border:1px solid #fff;
+	cursor:pointer;
+	float:left;
+	padding:5px 10px;
+	text-align:center;
+	width:120px;	
+}
+a{ color:#fff;}
+.about{ background-image:url(1_1.png);}
+.products{ background-image:url(1_2.png);}
+.tech{ background-image:url(1_3.png);}
